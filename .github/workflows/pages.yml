@@ -21,6 +21,14 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Setup Python and Jupyter
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install Jupyter
+        run: pip install jupyter
+      
       - name: Build site
         run: bundle exec jekyll build
 
