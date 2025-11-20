@@ -8,6 +8,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   github-pages:
     runs-on: ubuntu-latest
@@ -25,10 +34,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      
+
       - name: Install Jupyter
         run: pip install jupyter
-      
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
       - name: Build site
         run: bundle exec jekyll build
 
@@ -41,17 +53,13 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: github-pages
     runs-on: ubuntu-latest
-    
-    permissions:
-      pages: write
-      id-token: write
-    
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+
 
