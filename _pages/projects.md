@@ -5,9 +5,17 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+dropdown: true
+children:
+  - title: science
+    permalink: /blog/
+  - title: divider
+  - title: art
+    permalink: /art/
+display_categories: [science, art]
 horizontal: false
 ---
+
 
 <!-- pages/projects.md -->
 <div class="projects">
