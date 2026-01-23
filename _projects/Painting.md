@@ -1,74 +1,50 @@
 ---
 layout: page
 title: Painting
-description: Brief description of your zine project
-#img: #assets/img/zine.jpg
+description: Visual art exploring intuition and emotion
+img: assets/img/paintings/photo_session/IMG_2133.JPG
 importance: 1
 category: art
-published: false
+published: true
 ---
 
-Your project content here...
+## My Painting Practice
 
+Painting has been a creative outlet for me since I was a child. I went through a classical eductaion with [Anette Wessel](https://atelier-wessel.de/englishcontent/artgroups.html) with different mediums including acrylic, watercolor, pastels and sculpture. I started with more figurative work and turned towards a new phase of abstract expressions in recent projects. 
 
+My painting process has shiften to start with drawing shapes on the canvas with chalk and layering on mixed media of acryllic paint, spraypaint (with and without stencils) and markers to create new shapes that feel intuinitive to me without looking for beauty or meaning. 
 
+Recently, I aim to expand my process by incooperating more project based work (e.g. focusing on the topic or idea of time) as well as exploring media such as sculpture and clay again.
+
+---
+
+### Photo Session
+
+A collection of photograpgs capturing moments of my creative process. Photographs made by [Eduardo Garcia](https://www.instagram.com/dets_garcia/) in Munich in June 2022.
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2114.JPG" title="Painting 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2118.JPG" title="Painting 2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2123.JPG" title="Painting 3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2124.JPG" title="Painting 4" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2126.JPG" title="Painting 5" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/paintings/photo_session/IMG_2133.JPG" title="Painting 6" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+---

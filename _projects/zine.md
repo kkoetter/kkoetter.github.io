@@ -2,7 +2,7 @@
 layout: page
 title: Majak Zine (2022)
 description: A visual exploration of neighbourhood storytelling
-img: assets/img/zine_cover.jpg
+img: assets/img/zine_cover2.jpg
 importance: 3
 category: art
 ---
