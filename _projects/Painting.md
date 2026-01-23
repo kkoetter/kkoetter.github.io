@@ -5,6 +5,7 @@ description: Brief description of your zine project
 #img: #assets/img/zine.jpg
 importance: 1
 category: art
+published: false
 ---
 
 Your project content here...

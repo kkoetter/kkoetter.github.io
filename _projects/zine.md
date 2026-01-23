@@ -1,71 +1,71 @@
 ---
 layout: page
-title: Zine
-description: Brief description of your zine project
-#img: #assets/img/zine.jpg
+title: Majak Zine (2022)
+description: A visual exploration of neighbourhood storytelling
+img: assets/img/zine_cover.jpg
 importance: 3
 category: art
 ---
 
-Your project content here...
+## Majak Zine (2022)
 
+This zine is a creative project exploring themes of identity, memory, and connection through shared narratives. I started this project after hearing another story about one of my grandmother's neighbours. It prompted a question - What does a place consist of?
+The buildings, roads and paths or maybe its history, stories and people. All these little bits of gossip that wander through the neighbourhood make it feel like a living breathing being. People have lived next to each other for generations in this neighbourhood called
+after its [lighthouse (маяк)](https://grokipedia.com/page/sukhumi_lighthouse) designed by the french. Their lives connected by tiny daily moments of happiness and sadness. I wanted to capture this feeling of people still living in this neighbourhood and people gone though this gossip. Let's meet them!
 
+### Flip Through the Zine
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/3d-flip-book@1.8.0/css/flip-book.min.css">
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div id="flipbook-container" style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px;">
+  <div id="flipbook" style="width: 100%; height: 600px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <object data="/assets/pdf/Majak_2022.pdf" type="application/pdf" width="100%" height="100%" style="border-radius: 8px;">
+      <iframe src="https://docs.google.com/viewer?url={{ site.url }}/assets/pdf/Majak_2022.pdf&embedded=true" width="100%" height="100%" style="border: none; border-radius: 8px;"></iframe>
+    </object>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption text-center" style="margin-top: 20px;">
+  Scroll through the zine here. You can also <a href="/assets/pdf/Majak_2022.pdf" target="_blank">download the PDF</a> for offline viewing.
+</div>
+
+<style>
+  #flipbook-container {
+    position: relative;
+  }
+  
+  #flipbook object,
+  #flipbook iframe {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .flip-controls {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .flip-controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: var(--global-theme-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .flip-controls button:hover {
+    opacity: 0.8;
+  }
+</style>
+
+---
+
+**About the Project**
+
+Created in 2022, it combines photography and text to create an intimate reading experience and immerses the reader in the world of the neighbourhood thorugh stories rather than history. Some names were changed. All photographs were made by me (Katharina Koetter) in Sukhumi, Abkhazia.
+
+Abkhazia is a seperatist region in the territory of Georgia which declared independence after the [Georgio-Abkhazian war (1992-1993)](https://en.wikipedia.org/wiki/War_in_Abkhazia_(1992–1993)) and is only officially recognized by a couple of countries. This causes inconvinience for my family as travelling to see my grandmother is difficult, however whenever we visit I realise that life goes on in places and ways where (as a privilged white european) I find it hard to imagine. This zine is not about my story, but about the people who actually live there.
+
+The zine was printed with a small edition of 40 pieces and sold by post, with profits going to charity. If you want to contribute please contact me!
