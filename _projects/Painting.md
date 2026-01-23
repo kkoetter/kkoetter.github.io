@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Painting
+title: My Painting Practice
 description: Visual art exploring intuition and emotion
 img: assets/img/paintings/photo_session/IMG_2133.JPG
 importance: 1
