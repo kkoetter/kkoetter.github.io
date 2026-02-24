@@ -37,6 +37,38 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Associate ML Engineer 
+      institution: Zelim, Edinburgh, UK
+      year: 2025 - present
+      description:
+        - Training ML Computer Vision models for sea rescue operations using yolo v7.
+
+    - title: Research Operations Assistant
+      institution: Metajoin Ltd., Edinburgh, UK
+      year: 2025 - 2026
+      description:
+        - Part-time research position implementing an open source local LLM RAG approach on private data.
+
+    - title: Research Assistant
+      institution: Max Planck Institute for Biological Intelligence, Munich, Germany
+      year: 2019
+      description:
+        - Research position in Computational Neuroscience with R. Portugues running and analysing zebrafish behaviour and imaging experiments using Light Sheet Microscopy.
+
+    - title: Research Assistant
+      institution: Center for Psychosocial Medicine, University of Heidelberg, Germany
+      year: 2019
+      description:
+        - A clinical research position with O. Gruber, investigating depression through Genome Wide Association Analysis with plink, and fMRI imaging.
+
+    - title: Erasmus Internship
+      institution: Institute for Medical Psychiatry, University of Heidelberg, Germany
+      year: 2017 - 2018
+      description:
+        - A clinical research internship to establish and optimise an Eye-Tracker Method in a social safety learning study with M. Eckstein using SPSS and psychological questionnaires.
+
+
     - title: Research Operations Assistant
       institution: Metajoin Ltd., Edinburgh, UK
       year: 2025 - present
